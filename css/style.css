@@ -2,11 +2,34 @@
 /* *** ESTILOS GENERALES *** */
 /* *********************************** */
 
-/* Tipografía */
+/* Fuentes propias */
 @font-face {
-    font-family: "";
-    src: url("") format("woof2"),
-         url("") format("woof");
+    font-family: "robotoregular";
+    font-weight: normal;
+    font-style: normal;
+    src:
+        local("roboto"),
+        url("../fonts/roboto-regular-webfont.woff2") format("woff2"),
+        url("../fonts/roboto-regular-webfont.woff") format("woff");
+
+}
+
+@font-face {
+    font-family: "shrikhandregular";
+    font-weight: normal;
+    font-style: normal;
+    src:
+        local("shrikhandregular"),
+        url("../fonts/shrikhand-regular-webfont.woff2") format("woff2"),
+        url("../fonts/shrikhand-regular-webfont.woff") format("woff");
+
+}
+
+html {
+    font-family: "robotoregular", sans-serif;
+    font-size: 16px;
+    background-color: #eeee;
+    color: black;
 }
 
 /* ******************************** */
