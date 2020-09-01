@@ -2,3 +2,131 @@
 /* *** Estilos SOLO para index.html *** */
 /* *********************************** */
 
+
+.cuadrados
+{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.section_cuadradoGrande
+{
+    /* width: 440px; */
+    height: 440px;
+    background-color: #c4c4c4;
+    /* flex: none; */
+    flex-basis: 440px;
+
+
+}
+
+
+
+.section_figureColumna
+{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.section_figureColumna_cuadroPeque {
+    width: 210px;
+    height: 210px;
+    background-color: #c4c4c4;
+    margin-bottom: 5px;
+    align-self: flex-start;
+
+}
+
+.textoIzquierda {
+    width: 210px;
+    height: 210px;
+    overflow: hidden;
+    text-align: left;
+
+}
+
+.textoDerecha {
+    width: 210px;
+    height: 210px;
+    overflow: hidden;
+    text-align: right;
+
+}
+
+main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.zonaCentral
+{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: flex-start; */
+
+    width: 90%;
+
+}
+
+.textoCentrado
+{
+    /* width: 100%; */
+    text-align-last: center;    
+
+
+}
+
+.lineaGrande
+{
+    height: 20px;
+    background-color: brown;
+
+}
+
+.circulos
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    height: 200px;
+
+}
+
+.circulo
+{
+    /* width: 60%;
+    height: 60%; */
+    /* flex-flow: 1; */
+    flex-basis: 220px;
+    /* width: 100px; */
+    height: 220px;
+    border-radius: 50%;
+
+}
+
+.circuloRojo
+{
+    background-color: brown;
+}
+
+.circuloVioleta
+{
+    background-color: blueviolet;
+
+}

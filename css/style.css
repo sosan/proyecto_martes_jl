@@ -38,7 +38,8 @@ html
 
 body 
 {
-    padding: 1.25rem 1.25rem 0em 1.25rem;
+    padding: 40px 40px 0px 40px;
+    /* width: 100vw; */
     height: 100vh;
 
 }
