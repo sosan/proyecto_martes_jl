@@ -4,14 +4,16 @@
 
 .contenido
 {
-    width: 900px;
+    /* width: 900px; */
+    min-width: 900px;
+    max-width: 1366px;
 }
 
 .cuadrados
 {
     display: flex;
 
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     
 
