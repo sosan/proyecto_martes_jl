@@ -2,6 +2,8 @@
 /* *** Estilos SOLO para index.html *** */
 /* *********************************** */
 
+
+/* Seccion General que cubre todo */
 .contenido
 {
     /* width: 900px; */
@@ -10,122 +12,134 @@
 
 }
 
-.cuadrados
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    
-
-}
-
-.section_figureColumna
-{
-    display: flex;
-    flex-direction: column;
-    padding: 0px;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-}
-
-.columna_izq
-{
-    margin-right: 20px;
-}
-
-.columna_der
-{
-    margin-left: 20px;
-
-}
-
-.section_cuadradoGrande {
-    height: 440px;
-    flex-basis: 440px;
-    background-color: #c4c4c4;
 
 
-}
+/* --- Zona Superior */
 
-.section_figureColumna_cuadroPeque {
-    width: 210px;
-    height: 210px;
-    background-color: #c4c4c4;
-    margin-bottom: 5px;
-    align-self: flex-start;
+    /* Estilo General para todo el contenido dentro de CUADRADOS */
+    .cuadrados
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
 
-}
+    }
 
-.textoIzquierda {
-    width: 210px;
-    height: 210px;
-    overflow: hidden;
-    text-align: left;
 
-}
+        /* Estilo comun (reset de paddings, margins, etc..) para las 2 columnas (izquierda y derecha) */
+        .section_figureColumna
+        {
+            display: flex;
+            flex-direction: column;
+            padding: 0px;
+            margin-top: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
 
-.textoDerecha {
-    width: 210px;
-    height: 210px;
-    overflow: hidden;
-    text-align: right;
+        /* Estilo propio para columna izquierda */
+        .columna_izq
+        {
+            margin-right: 20px;
+        }
 
-}
+        /* Estilo para columna derecha */
+        .columna_der
+        {
+            margin-left: 20px;
+            
+        }
 
-main
-{
-    margin-top: 20px;
-}
+            .section_figureColumna_cuadroPeque {
+                width: 210px;
+                height: 210px;
+                background-color: #c4c4c4;
+                margin-bottom: 5px;
+                align-self: flex-start;
 
-.zonaCentral
-{
-    display: flex;
-    flex-direction: column;
+            }
+            
+            .textoIzquierda {
+                width: 210px;
+                height: 210px;
+                overflow: hidden;
+                text-align: left;
+            
+            }
+            
+            .textoDerecha {
+                width: 210px;
+                height: 210px;
+                overflow: hidden;
+                text-align: right;
+            
+            }
+            
+        /* CUADRADOS  */
+        .section_cuadradoGrande {
+            height: 440px;
+            flex-basis: 440px;
+            background-color: #c4c4c4;
 
-}
 
-.textoCentrado
-{
-    text-align-last: center;    
+        }
 
-}
 
-.lineaGrande
-{
-    height: 20px;
-    background-color: brown;
 
-}
+    main
+    {
+        margin-top: 20px;
+    }
 
-.circulos
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    /* height: 210px; */
+        .zonaCentral
+        {
+            display: flex;
+            flex-direction: column;
 
-}
+        }
 
-.circulo
-{
-    flex-basis: 210px;
-    height: 210px;
-    border-radius: 50%;
+        .textoCentrado
+        {
+            text-align-last: center;    
 
-}
+        }
 
-.circuloRojo
-{
-    background-color: brown;
-}
+        .lineaGrande
+        {
+            height: 20px;
+            background-color: brown;
 
-.circuloVioleta
-{
-    background-color: blueviolet;
+        }
 
-}
+        .circulos
+        {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            /* height: 210px; */
+
+        }
+
+            .circulo
+            {
+                flex-basis: 210px;
+                height: 210px;
+                border-radius: 50%;
+
+            }
+
+            .circuloRojo
+            {
+                background-color: brown;
+            }
+
+            .circuloVioleta
+            {
+                background-color: blueviolet;
+
+            }
