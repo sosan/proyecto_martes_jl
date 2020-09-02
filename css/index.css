@@ -52,6 +52,8 @@
             
         }
 
+            /* Dentro de la columna izq o derecha, hay una SUB DIVISION 
+            (flex-diretion COLUM): la imagen y el texto */
             .section_figureColumna_cuadroPeque {
                 width: 210px;
                 height: 210px;
@@ -60,24 +62,34 @@
                 align-self: flex-start;
 
             }
-            
-            .textoIzquierda {
+
+            /* Controla valores comunes en texto de las columnas */
+            .textos
+            {
+                /* caja de texto con tamaño definido de 210px x 210px */
                 width: 210px;
                 height: 210px;
-                overflow: hidden;
+                
+                /* Aparecere barra scroll en Y */
+                /* overflow-y: scroll; */
+
+                /* Recorta el texto sobrante de en este caso 210px x 210px */
+                /* overflow: hidden; */
+
+            }
+            
+            /* Valores propios del texto de cada columna */
+            .textoIzquierda {
                 text-align: left;
             
             }
             
             .textoDerecha {
-                width: 210px;
-                height: 210px;
-                overflow: hidden;
                 text-align: right;
             
             }
             
-        /* CUADRADOS  */
+        /* El unico cuadrado grande */
         .section_cuadradoGrande {
             height: 440px;
             flex-basis: 440px;
