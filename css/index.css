@@ -8,9 +8,6 @@
     min-width: 900px;
     max-width: 1366px;
 
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 
 .cuadrados
@@ -22,19 +19,6 @@
     
 
 }
-
-.section_cuadradoGrande
-{
-    /* width: 440px; */
-    height: 440px;
-    background-color: #c4c4c4;
-    /* flex: none; */
-    flex-basis: 440px;
-
-
-}
-
-
 
 .section_figureColumna
 {
@@ -54,6 +38,14 @@
 .columna_der
 {
     margin-left: 20px;
+
+}
+
+.section_cuadradoGrande {
+    height: 440px;
+    flex-basis: 440px;
+    background-color: #c4c4c4;
+
 
 }
 
@@ -91,18 +83,12 @@ main
 {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: flex-start; */
-
-    /* width: 900px; */
 
 }
 
 .textoCentrado
 {
-    /* width: 100%; */
     text-align-last: center;    
-
 
 }
 
@@ -121,17 +107,13 @@ main
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    height: 200px;
+    /* height: 210px; */
 
 }
 
 .circulo
 {
-    /* width: 60%;
-    height: 60%; */
-    /* flex-flow: 1; */
     flex-basis: 210px;
-    /* width: 100px; */
     height: 210px;
     border-radius: 50%;
 
