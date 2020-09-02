@@ -139,10 +139,13 @@
 
             .circulo
             {
+
                 flex-basis: 210px;
                 height: 210px;
                 border-radius: 50%;
-
+                
+                /* Figure tiene margin propio */
+                margin: 0px;
             }
 
             .circuloRojo
