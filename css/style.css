@@ -10,8 +10,8 @@
     font-style: normal;
     src:
         local("roboto"),
-        url("../fonts/roboto-regular-webfont.woff2") format("woff2"),
-        url("../fonts/roboto-regular-webfont.woff") format("woff");
+        url("../font/roboto-regular-webfont.woff2") format("woff2"),
+        url("../font/roboto-regular-webfont.woff") format("woff");
 
 }
 
@@ -22,8 +22,8 @@
     font-style: normal;
     src:
         local("shrikhandregular"),
-        url("../fonts/shrikhand-regular-webfont.woff2") format("woff2"),
-        url("../fonts/shrikhand-regular-webfont.woff") format("woff");
+        url("../font/shrikhand-regular-webfont.woff2") format("woff2"),
+        url("../font/shrikhand-regular-webfont.woff") format("woff");
 
 }
 
@@ -40,8 +40,7 @@ body
 {
     padding: 40px 40px 0px 40px;
     /* width: 100vw; */
-    display: flex;
-    justify-content: center;
+   
     
     height: 100vh;
 
