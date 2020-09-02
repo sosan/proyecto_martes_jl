@@ -3,21 +3,12 @@
 /* *********************************** */
 
 
-/* Seccion General que cubre todo */
-.contenido
-{
-    width: 900px;
-    /* min-width: 900px; */
-    /* max-width: 1366px; */
-    padding: 40px 40px 0px 40px;
-
-}
 
 
 
 /* --- Zona Superior */
 
-    /* Estilo General para todo el contenido dentro de CUADRADOS */
+    /* Estilo para todo el contenido dentro de CUADRADOS */
     .cuadrados
     {
         display: flex;
@@ -106,66 +97,16 @@
         margin-top: 20px;
     }
 
-        .zonaCentral
-        {
-            display: flex;
-            flex-direction: column;
+    /* Zona central de la pagina index.html */
+    .zonaCentral
+    {
+        display: flex;
+        flex-direction: column;
 
-        }
+    }
 
-        .textoCentrado
-        {
-            text-align-last: center;    
+    .textoCentrado
+    {
+        text-align-last: center;    
 
-        }
-
-        .lineaGrande
-        {
-            height: 20px;
-            background-color: brown;
-
-        }
-
-        .circulos
-        {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            /* width: 900px; */
-            /* height: 210px; */
-
-        }
-
-
-            .circulo
-            {
-
-                flex-basis: 210px;
-                /* Tamaño fijo  */
-                width: 210px;
-                height: 210px;
-                border-radius: 50%;
-                
-                /* Figure tiene margin propio */
-                margin: 0px;
-                
-            }
-
-            .circuloRojo
-            {
-                background-color: brown;
-            }
-
-            .circuloVioleta
-            {
-                background-color: blueviolet;
-               
-            }
-
-            .circuloEspaciado
-            {
-                margin-right: 20px;
-            }
+    }

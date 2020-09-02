@@ -38,8 +38,6 @@ html
 
 body 
 {
-   
-    /* width: 100vw; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,19 +45,26 @@ body
 
 }
 
+/* Seccion General que cubre todo */
+.contenido {
 
+    /* Ancho Limitado a 900px */
+    width: 900px;
 
+    /* Ancho Flexible con minimo y maximo */
+    /* min-width: 900px; */
+    /* max-width: 1366px; */
+    padding: 40px 40px 0px 40px;
 
-
-
-
-.fondoVisible
-{
-    
 }
 
 
 
+.lineaGrande {
+    height: 20px;
+    background-color: brown;
+
+}
 
 
 .circulosGeneral
@@ -85,5 +90,30 @@ body
     /* min-width: 900px;
     max-width: 1366px; */
 
+}
+
+.circulo {
+
+    flex-basis: 210px;
+    /* Tamaño fijo  */
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+
+    /* Figure tiene margin propio */
+    margin: 0px;
+
+}
+
+.circuloRojo {
+    background-color: #6F0000;
+}
+
+.circuloVioleta {
+    background-color: blueviolet;
+}
+
+.circuloEspaciado {
+    margin-right: 20px;
 }
 

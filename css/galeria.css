@@ -1,7 +1,33 @@
+/* *********************************** */
+/* *** Estilos SOLO para GALERIA.html *** */
+/* *********************************** */
+
+  /* Estilo comun (reset de paddings, margins, etc..) para las 2 columnas (izquierda y derecha) */
+.galeria_figure {
+    /* display: flex;
+flex-direction: column; */
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.galeria_figure_cuadroPeque {
+    width: 210px;
+    height: 210px;
+    background-color: #c4c4c4;
+    margin-bottom: 5px;
+    align-self: flex-start;
+
+}
+
 
 .bannerPortada
 {
-    width: 100%;
+    height: 150px;
+    margin: 0px;
+    padding: 0px;
+    background-color: brown;
 
 
 }

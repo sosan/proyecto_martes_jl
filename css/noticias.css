@@ -1,14 +1,38 @@
+/* *********************************** */
+/* *** Estilos SOLO para NOTICIAS.html *** */
+/* *********************************** */
+/* Estilo para todo el contenido dentro de CUADRADOS */
+.cuadrados {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+  /* Estilo comun (reset de paddings, margins, etc..) para las 2 columnas (izquierda y derecha) */
+.nav_figure {
+    /* display: flex;
+    flex-direction: column; */
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.nav_figure_cuadroPeque {
+    width: 210px;
+    height: 210px;
+    background-color: #c4c4c4;
+    margin-bottom: 5px;
+    align-self: flex-start;
+
+}
+
+
 .textoJustificado
 {
     text-align: justify;
 }
 
-.contenidoNoticias
-{
-    display: flex;
-    /* justify-content: center;
-    align-items: center; */
-    width: 900px;
-    max-width: 1366px;
-    /* padding: 40px 40px 0px 40px; */
-}
