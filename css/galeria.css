@@ -1,0 +1,19 @@
+
+.bannerPortada
+{
+    width: 100%;
+
+
+}
+
+.galeria
+{   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin-top: 20px;
+
+
+}
